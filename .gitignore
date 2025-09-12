@@ -32,3 +32,5 @@ coverage
 unpackage
 .hbuilderx
 .current-env
+
+.codebuddy
