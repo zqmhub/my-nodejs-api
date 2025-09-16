@@ -5,12 +5,19 @@
   "scripts": {
     "api": "node index.js"
   },
+  "bin": {
+    "v-cli": "./jsj.js"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "commander": "^14.0.1",
+    "download-git-repo": "^3.0.2",
     "express": "^5.1.0",
-    "jsdom": "^26.1.0"
+    "inquirer": "^12.9.6",
+    "jsdom": "^26.1.0",
+    "ora": "^9.0.0"
   }
 }
